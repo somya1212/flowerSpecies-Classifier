@@ -7,7 +7,7 @@ The image classifier is used to recognize different species of flowers. The Data
 Command line applications train.py and predict.py
 For command line applications there is an option to select either Alexnet or VGG13 models.
 
-Following arguments mandatory or optional for train.py
+## Following arguments mandatory or optional for train.py
 
 'data_dir'. 'Provide data directory. Mandatory argument', type = str
 '--save_dir'. 'Provide saving directory. Optional argument', type = str
