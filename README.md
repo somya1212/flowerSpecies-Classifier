@@ -12,9 +12,9 @@ I'll be using this dataset(http://www.robots.ox.ac.uk/~vgg/data/flowers/102/inde
 
 The project is broken down into multiple steps:
 
-Load and preprocess the image dataset
-Train the image classifier on your dataset
-Use the trained classifier to predict image content
+- Load and preprocess the image dataset
+- Train the image classifier on your dataset
+- Use the trained classifier to predict image content
 
 ## Software and Libraries
 This project uses the following software and Python libraries:
@@ -66,7 +66,7 @@ Prints out training loss, validation loss, and validation accuracy as the networ
 * This will open the iPython Notebook software and project file in your browser.
 
 
-## Following arguments are mandatory or optional for train.py
+### Following arguments are mandatory or optional for train.py
 
 - 'data_dir'. 'Provide data directory. Mandatory argument', type = str
 - '--save_dir'. 'Provide saving directory. Optional argument', type = str
@@ -76,7 +76,7 @@ Prints out training loss, validation loss, and validation accuracy as the networ
 -'--epochs'. 'Number of epochs', type = int
 - '--GPU'. "Option to use GPU", type = str
 
-## Following arguments are mandatory or optional for predict.py
+### Following arguments are mandatory or optional for predict.py
 
 - 'image_dir'. 'Provide path to image. Mandatory argument', type = str
 - 'load_dir'. 'Provide path to checkpoint. Mandatory argument', type = str
