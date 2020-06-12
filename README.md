@@ -1,12 +1,13 @@
 # flowerSpecies-Classifier
-In this project, I developed for an image classifier with PyTorch, and then converted into a command line applications: 
+AI algorithms will be incorporated into more and more everyday applications. For example, we might want to include an image classifier in a smart phone app. To do this, we would use a deep learning model trained on hundreds of thousands of images as part of the overall application architecture. A large part of software development in the future will be using these types of models as common parts of applications.
 
-The image classifier is used to recognize different species of flowers. The Dataset contains 102 flower categories.
+In this project, I'll train an image classifier to recognize different species of flowers. You can imagine using something like this in a phone app that tells you the name of the flower your camera is looking at. In practice I would train this classifier, then export it for use in our application. I'll be using this dataset(http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html) of 102 flower categories.
 
+The project is broken down into multiple steps:
 
-Command line applications train.py and predict.py
-For command line applications there is an option to select either Alexnet or VGG13 models.
-
+Load and preprocess the image dataset
+Train the image classifier on your dataset
+Use the trained classifier to predict image content
 ## Following arguments are mandatory or optional for train.py
 
 - 'data_dir'. 'Provide data directory. Mandatory argument', type = str
